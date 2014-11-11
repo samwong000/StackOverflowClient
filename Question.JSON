@@ -1,0 +1,777 @@
+{
+    "items": [
+              {
+              "tags": [
+                       "json",
+                       "swift",
+                       "parse.com",
+                       "nsarray"
+                       ],
+              "owner": {
+              "reputation": 13,
+              "user_id": 4220267,
+              "user_type": "registered",
+              "profile_image": "https://www.gravatar.com/avatar/4418e6010489eb616dcdf4261494deeb?s=128&d=identicon&r=PG&f=1",
+              "display_name": "Jaco2201",
+              "link": "http://stackoverflow.com/users/4220267/jaco2201"
+              },
+              "is_answered": false,
+              "view_count": 6,
+              "answer_count": 1,
+              "score": 0,
+              "last_activity_date": 1415666202,
+              "creation_date": 1415664138,
+              "last_edit_date": 1415665760,
+              "question_id": 26855283,
+              "link": "http://stackoverflow.com/questions/26855283/convert-parse-com-json-array-into-nsarray-with-swift",
+              "title": "Convert Parse.com json array into NSArray with swift"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "objective-c",
+                       "swift",
+                       "sprite-kit"
+                       ],
+              "owner": {
+              "reputation": 6,
+              "user_id": 4227841,
+              "user_type": "registered",
+              "profile_image": "https://www.gravatar.com/avatar/737d51fc32ffb190b6d6e6c6d7dc4ad9?s=128&d=identicon&r=PG&f=1",
+              "display_name": "cad71",
+              "link": "http://stackoverflow.com/users/4227841/cad71"
+              },
+              "is_answered": false,
+              "view_count": 52,
+              "answer_count": 1,
+              "score": 1,
+              "last_activity_date": 1415666059,
+              "creation_date": 1415379578,
+              "last_edit_date": 1415386152,
+              "question_id": 26806260,
+              "link": "http://stackoverflow.com/questions/26806260/ios-how-to-check-if-three-sprites-make-contact",
+              "title": "iOS How to check if three sprites make contact"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "uicollectionview"
+                       ],
+              "owner": {
+              "reputation": 35,
+              "user_id": 3803038,
+              "user_type": "registered",
+              "accept_rate": 67,
+              "profile_image": "https://www.gravatar.com/avatar/9744bb7f4516e8b53384c34e706123f6?s=128&d=identicon&r=PG&f=1",
+              "display_name": "marcobonny88",
+              "link": "http://stackoverflow.com/users/3803038/marcobonny88"
+              },
+              "is_answered": false,
+              "view_count": 543,
+              "answer_count": 3,
+              "score": 0,
+              "last_activity_date": 1415665998,
+              "creation_date": 1406552483,
+              "last_edit_date": 1406552681,
+              "question_id": 24995879,
+              "link": "http://stackoverflow.com/questions/24995879/horizontal-scroll-when-rotate-uicolectionview-in-swift",
+              "title": "Horizontal scroll when rotate UIColectionView in swift"
+              },
+              {
+              "tags": [
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 25,
+              "user_id": 1096708,
+              "user_type": "registered",
+              "accept_rate": 0,
+              "profile_image": "https://www.gravatar.com/avatar/06cdf4901763b34fad4428f345cd7492?s=128&d=identicon&r=PG",
+              "display_name": "GnarGnar",
+              "link": "http://stackoverflow.com/users/1096708/gnargnar"
+              },
+              "is_answered": true,
+              "view_count": 214,
+              "answer_count": 1,
+              "score": 3,
+              "last_activity_date": 1415665130,
+              "creation_date": 1406425436,
+              "question_id": 24977168,
+              "link": "http://stackoverflow.com/questions/24977168/how-to-check-if-a-generic-type-is-nil-in-swift",
+              "title": "How to check if a Generic type is nil in Swift"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "sprite-kit"
+                       ],
+              "owner": {
+              "reputation": 56,
+              "user_id": 3649307,
+              "user_type": "registered",
+              "accept_rate": 70,
+              "profile_image": "https://www.gravatar.com/avatar/c5fedd9f81d87f27480cc82d307cf289?s=128&d=identicon&r=PG&f=1",
+              "display_name": "anjani",
+              "link": "http://stackoverflow.com/users/3649307/anjani"
+              },
+              "is_answered": false,
+              "view_count": 24,
+              "answer_count": 1,
+              "score": -1,
+              "last_activity_date": 1415663853,
+              "creation_date": 1415570007,
+              "last_edit_date": 1415663853,
+              "question_id": 26833754,
+              "link": "http://stackoverflow.com/questions/26833754/spritekit-swift-how-to-remove-or-disable-ground-contact",
+              "title": "Spritekit Swift( how to remove or disable ground contact )"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "objective-c",
+                       "swift",
+                       "xcode6"
+                       ],
+              "owner": {
+              "reputation": 2478,
+              "user_id": 197626,
+              "user_type": "registered",
+              "accept_rate": 50,
+              "profile_image": "https://www.gravatar.com/avatar/864e2a768b89d0a553043c6a149502a2?s=128&d=identicon&r=PG",
+              "display_name": "Daniel Thorpe",
+              "link": "http://stackoverflow.com/users/197626/daniel-thorpe"
+              },
+              "is_answered": true,
+              "view_count": 466,
+              "answer_count": 2,
+              "score": 4,
+              "last_activity_date": 1415663631,
+              "creation_date": 1406200458,
+              "question_id": 24932147,
+              "link": "http://stackoverflow.com/questions/24932147/how-should-a-swift-objective-c-project-be-setup-for-unit-testing",
+              "title": "How should a Swift + Objective-C project be setup for Unit Testing"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "uitableview",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 176,
+              "user_id": 2520629,
+              "user_type": "registered",
+              "accept_rate": 46,
+              "profile_image": "https://www.gravatar.com/avatar/0e8e6ac63a45461e68a7100925b0a55d?s=128&d=identicon&r=PG",
+              "display_name": "Josh Harington",
+              "link": "http://stackoverflow.com/users/2520629/josh-harington"
+              },
+              "is_answered": true,
+              "view_count": 63,
+              "accepted_answer_id": 26577133,
+              "answer_count": 2,
+              "score": 2,
+              "last_activity_date": 1415663085,
+              "creation_date": 1414329931,
+              "last_edit_date": 1414332917,
+              "question_id": 26573471,
+              "link": "http://stackoverflow.com/questions/26573471/tableview-reload-data-method-being-called-but-not-executing",
+              "title": "tableview reload data method being called, but not executing"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "swifty-json"
+                       ],
+              "owner": {
+              "reputation": 16294,
+              "user_id": 401025,
+              "user_type": "registered",
+              "accept_rate": 98,
+              "profile_image": "http://i.stack.imgur.com/oWarC.png?s=128&g=1",
+              "display_name": "artworkad シ",
+              "link": "http://stackoverflow.com/users/401025/artworkad-%e3%82%b7"
+              },
+              "is_answered": false,
+              "view_count": 10,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415662864,
+              "creation_date": 1415662864,
+              "question_id": 26855074,
+              "link": "http://stackoverflow.com/questions/26855074/nsdictionary-to-json-string-to-json-object-using-swiftyjson",
+              "title": "NSDictionary to json string to json object using SwiftyJSON"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "core-audio"
+                       ],
+              "owner": {
+              "reputation": 68,
+              "user_id": 4122521,
+              "user_type": "registered",
+              "accept_rate": 100,
+              "profile_image": "https://www.gravatar.com/avatar/ec9a62aa50e4b84a154165883ead9a6d?s=128&d=identicon&r=PG&f=1",
+              "display_name": "CarveDrone",
+              "link": "http://stackoverflow.com/users/4122521/carvedrone"
+              },
+              "is_answered": false,
+              "view_count": 4,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415662722,
+              "creation_date": 1415662722,
+              "question_id": 26855048,
+              "link": "http://stackoverflow.com/questions/26855048/swift-avaudioengine-crash-player-started-when-in-a-disconnected-state",
+              "title": "Swift AVAudioEngine crash: player started when in a disconnected state"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "uibutton"
+                       ],
+              "owner": {
+              "reputation": 8,
+              "user_id": 4109016,
+              "user_type": "registered",
+              "profile_image": "http://graph.facebook.com/1107840046/picture?type=large",
+              "display_name": "Jeremy Sh",
+              "link": "http://stackoverflow.com/users/4109016/jeremy-sh"
+              },
+              "is_answered": false,
+              "view_count": 13,
+              "answer_count": 1,
+              "score": 0,
+              "last_activity_date": 1415662544,
+              "creation_date": 1415661791,
+              "question_id": 26854896,
+              "link": "http://stackoverflow.com/questions/26854896/trying-to-make-a-square-uibutton-morph-into-a-circle-with-animatekeyframeswith",
+              "title": "Trying to make a square UIButton &quot;morph&quot; into a circle with animateKeyframesWithDuration"
+              },
+              {
+              "tags": [
+                       "osx",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 6,
+              "user_id": 3464035,
+              "user_type": "registered",
+              "accept_rate": 25,
+              "profile_image": "https://www.gravatar.com/avatar/6224b8f967568ad3f08146054d3e131e?s=128&d=identicon&r=PG&f=1",
+              "display_name": "user3464035",
+              "link": "http://stackoverflow.com/users/3464035/user3464035"
+              },
+              "is_answered": true,
+              "view_count": 18,
+              "accepted_answer_id": 26854855,
+              "answer_count": 1,
+              "score": -1,
+              "last_activity_date": 1415662474,
+              "creation_date": 1415660208,
+              "last_edit_date": 1415661273,
+              "question_id": 26854587,
+              "link": "http://stackoverflow.com/questions/26854587/how-to-use-public-nsurl-variable",
+              "title": "How to use public NSURL Variable"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 100,
+              "user_id": 2700303,
+              "user_type": "registered",
+              "accept_rate": 56,
+              "profile_image": "http://i.stack.imgur.com/KOPdQ.jpg?s=128&g=1",
+              "display_name": "ByteArtisan",
+              "link": "http://stackoverflow.com/users/2700303/byteartisan"
+              },
+              "is_answered": true,
+              "view_count": 8,
+              "accepted_answer_id": 26854943,
+              "answer_count": 1,
+              "score": -1,
+              "last_activity_date": 1415662119,
+              "creation_date": 1415660158,
+              "last_edit_date": 1415660728,
+              "question_id": 26854572,
+              "link": "http://stackoverflow.com/questions/26854572/create-convenience-constructor-on-subclass-that-calls-failable-constructor",
+              "title": "Create convenience constructor on subclass that calls failable constructor"
+              },
+              {
+              "tags": [
+                       "objective-c",
+                       "osx",
+                       "swift",
+                       "storyboard",
+                       "segue"
+                       ],
+              "owner": {
+              "reputation": 1,
+              "user_id": 4228829,
+              "user_type": "registered",
+              "profile_image": "https://www.gravatar.com/avatar/bda6be506209034bfded11fccaccfe60?s=128&d=identicon&r=PG",
+              "display_name": "swift Traini",
+              "link": "http://stackoverflow.com/users/4228829/swift-traini"
+              },
+              "is_answered": false,
+              "view_count": 5,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415661994,
+              "creation_date": 1415661994,
+              "question_id": 26854924,
+              "link": "http://stackoverflow.com/questions/26854924/os-x-storyboard-segue-dismisscontroller",
+              "title": "OS X Storyboard Segue dismissController"
+              },
+              {
+              "tags": [
+                       "swift",
+                       "ios8",
+                       "alassetslibrary"
+                       ],
+              "owner": {
+              "reputation": 556,
+              "user_id": 379468,
+              "user_type": "registered",
+              "accept_rate": 57,
+              "profile_image": "https://www.gravatar.com/avatar/8540c5be96e6acc07071adb9819be1e5?s=128&d=identicon&r=PG",
+              "display_name": "user379468",
+              "link": "http://stackoverflow.com/users/379468/user379468"
+              },
+              "is_answered": false,
+              "view_count": 6,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415661613,
+              "creation_date": 1415661613,
+              "question_id": 26854876,
+              "link": "http://stackoverflow.com/questions/26854876/how-do-i-save-a-movie-to-a-custom-named-album-in-swift",
+              "title": "How do I save a movie to a custom named album in swift"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "view",
+                       "touch",
+                       "user-interaction"
+                       ],
+              "owner": {
+              "reputation": 43,
+              "user_id": 4156957,
+              "user_type": "registered",
+              "accept_rate": 62,
+              "profile_image": "https://www.gravatar.com/avatar/8c739fd5d1b0ab5a934908b861e4c77b?s=128&d=identicon&r=PG&f=1",
+              "display_name": "roi mulia",
+              "link": "http://stackoverflow.com/users/4156957/roi-mulia"
+              },
+              "is_answered": false,
+              "view_count": 4,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415661471,
+              "creation_date": 1415661471,
+              "question_id": 26854851,
+              "link": "http://stackoverflow.com/questions/26854851/swift-userintercationenabled-true-on-mainview-effects-all-other-views-even-i",
+              "title": "SWIFT - UserIntercationEnabled = true on mainview effects all other views even if is their UserIntercationEnabled is true"
+              },
+              {
+              "tags": [
+                       "objective-c",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 29,
+              "user_id": 2511126,
+              "user_type": "registered",
+              "accept_rate": 17,
+              "profile_image": "https://www.gravatar.com/avatar/1eec955c7783cfddfc96408a2c9162b6?s=128&d=identicon&r=PG",
+              "display_name": "user2511126",
+              "link": "http://stackoverflow.com/users/2511126/user2511126"
+              },
+              "is_answered": false,
+              "view_count": 15,
+              "answer_count": 1,
+              "score": -3,
+              "last_activity_date": 1415661048,
+              "creation_date": 1415659834,
+              "last_edit_date": 1415660369,
+              "question_id": 26854511,
+              "link": "http://stackoverflow.com/questions/26854511/declare-nsdata-nsdictionary-nsurl-in-swift",
+              "title": "declare nsdata, nsdictionary, nsurl in swift"
+              },
+              {
+              "tags": [
+                       "objective-c",
+                       "xcode",
+                       "osx",
+                       "cocoa",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 111,
+              "user_id": 2151387,
+              "user_type": "registered",
+              "accept_rate": 88,
+              "profile_image": "https://www.gravatar.com/avatar/6a1b39201487feb3cbca1cc117aca772?s=128&d=identicon&r=PG",
+              "display_name": "dikkini",
+              "link": "http://stackoverflow.com/users/2151387/dikkini"
+              },
+              "is_answered": false,
+              "view_count": 25,
+              "answer_count": 0,
+              "score": 1,
+              "last_activity_date": 1415660320,
+              "creation_date": 1415652090,
+              "last_edit_date": 1415652585,
+              "question_id": 26852619,
+              "link": "http://stackoverflow.com/questions/26852619/xcode-6-1-doesnt-recognize-foundation-classes",
+              "title": "Xcode 6.1 doesn&#39;t recognize Foundation Classes"
+              },
+              {
+              "tags": [
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 783,
+              "user_id": 2380455,
+              "user_type": "registered",
+              "accept_rate": 100,
+              "profile_image": "http://i.stack.imgur.com/OVXUu.jpg?s=128&g=1",
+              "display_name": "Hurden",
+              "link": "http://stackoverflow.com/users/2380455/hurden"
+              },
+              "is_answered": true,
+              "view_count": 119,
+              "accepted_answer_id": 25591165,
+              "answer_count": 3,
+              "score": 5,
+              "last_activity_date": 1415659924,
+              "creation_date": 1409467702,
+              "last_edit_date": 1409658225,
+              "question_id": 25589605,
+              "link": "http://stackoverflow.com/questions/25589605/swift-shortcut-unwrapping-of-array-of-optionals",
+              "title": "Swift: shortcut unwrapping of array of optionals"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "objective-c",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 40,
+              "user_id": 4160169,
+              "user_type": "registered",
+              "accept_rate": 100,
+              "profile_image": "https://www.gravatar.com/avatar/eeadd4ba6434e8c233a800098ee5b5fd?s=128&d=identicon&r=PG&f=1",
+              "display_name": "solo fisher",
+              "link": "http://stackoverflow.com/users/4160169/solo-fisher"
+              },
+              "is_answered": false,
+              "view_count": 10,
+              "answer_count": 1,
+              "score": 0,
+              "last_activity_date": 1415659464,
+              "creation_date": 1415653261,
+              "last_edit_date": 1415653631,
+              "question_id": 26852915,
+              "link": "http://stackoverflow.com/questions/26852915/getting-files-from-hostgator-ios",
+              "title": "Getting Files From Hostgator IOS"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "json",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 41,
+              "user_id": 2638084,
+              "user_type": "registered",
+              "accept_rate": 71,
+              "profile_image": "https://www.gravatar.com/avatar/d1c1e77e49a7319369284f4d74bbbdee?s=128&d=identicon&r=PG",
+              "display_name": "user2638084",
+              "link": "http://stackoverflow.com/users/2638084/user2638084"
+              },
+              "is_answered": true,
+              "view_count": 29,
+              "accepted_answer_id": 26854265,
+              "answer_count": 1,
+              "score": 0,
+              "last_activity_date": 1415658766,
+              "creation_date": 1415656780,
+              "last_edit_date": 1415657661,
+              "question_id": 26853773,
+              "link": "http://stackoverflow.com/questions/26853773/parsing-jsonarray-with-swift",
+              "title": "Parsing JSONArray with Swift"
+              },
+              {
+              "tags": [
+                       "xcode",
+                       "swift",
+                       "nsurlconnection",
+                       "grand-central-dispatch",
+                       "nsoperation"
+                       ],
+              "owner": {
+              "reputation": 183,
+              "user_id": 545081,
+              "user_type": "registered",
+              "accept_rate": 69,
+              "profile_image": "https://www.gravatar.com/avatar/7dc7ded33936a1a160b1df7a3b1dd94c?s=128&d=identicon&r=PG",
+              "display_name": "Hjalmar",
+              "link": "http://stackoverflow.com/users/545081/hjalmar"
+              },
+              "is_answered": false,
+              "view_count": 11,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415658514,
+              "creation_date": 1415652397,
+              "last_edit_date": 1415658514,
+              "question_id": 26852688,
+              "link": "http://stackoverflow.com/questions/26852688/pass-method-to-run-on-nsurlconnections-connectiondidfinishloading",
+              "title": "Pass method to run on NSURLConnection&#39;s connectionDidFinishLoading"
+              },
+              {
+              "tags": [
+                       "swift",
+                       "uiviewcontroller",
+                       "ios8",
+                       "presentviewcontroller",
+                       "uimodalpresentationstyle"
+                       ],
+              "owner": {
+              "reputation": 32,
+              "user_id": 1707455,
+              "user_type": "registered",
+              "accept_rate": 60,
+              "profile_image": "https://www.gravatar.com/avatar/1f9ebc17450d8abc1e4e00c0e07fa133?s=128&d=identicon&r=PG",
+              "display_name": "Boid",
+              "link": "http://stackoverflow.com/users/1707455/boid"
+              },
+              "is_answered": false,
+              "view_count": 30,
+              "bounty_amount": 50,
+              "bounty_closes_date": 1416262338,
+              "answer_count": 1,
+              "score": 1,
+              "last_activity_date": 1415657538,
+              "creation_date": 1415294211,
+              "last_edit_date": 1415315915,
+              "question_id": 26785439,
+              "link": "http://stackoverflow.com/questions/26785439/uimodalpresentationstyle-pagesheet-does-not-display-viewcontroller-content",
+              "title": "UIModalPresentationStyle.PageSheet does not display ViewController content"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "uicollectionviewlayout"
+                       ],
+              "owner": {
+              "reputation": 1,
+              "user_id": 2292142,
+              "user_type": "registered",
+              "profile_image": "http://i.stack.imgur.com/3MU0x.jpg?s=128&g=1",
+              "display_name": "Emmanuel T",
+              "link": "http://stackoverflow.com/users/2292142/emmanuel-t"
+              },
+              "is_answered": false,
+              "view_count": 31,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415657281,
+              "creation_date": 1415655205,
+              "last_edit_date": 1415657281,
+              "question_id": 26853376,
+              "link": "http://stackoverflow.com/questions/26853376/collectionview-nil",
+              "title": "CollectionView nil"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "notifications"
+                       ],
+              "owner": {
+              "reputation": 101,
+              "user_id": 4237408,
+              "user_type": "registered",
+              "profile_image": "http://graph.facebook.com/100000526850370/picture?type=large",
+              "display_name": "Tobias Schmidt",
+              "link": "http://stackoverflow.com/users/4237408/tobias-schmidt"
+              },
+              "is_answered": false,
+              "view_count": 17,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415657072,
+              "creation_date": 1415657072,
+              "question_id": 26853841,
+              "link": "http://stackoverflow.com/questions/26853841/swift-schedule-nslocalnotification-after-nslocalnotification-was-executed-in-swi",
+              "title": "Swift Schedule NSLocalNotification after NSLocalNotification was executed in Swift"
+              },
+              {
+              "tags": [
+                       "xcode",
+                       "swift",
+                       "slider"
+                       ],
+              "owner": {
+              "reputation": 1,
+              "user_id": 4221865,
+              "user_type": "registered",
+              "profile_image": "https://www.gravatar.com/avatar/05abb61b8ae16c38d0ce855dd55ff2f9?s=128&d=identicon&r=PG&f=1",
+              "display_name": "Pjc1992",
+              "link": "http://stackoverflow.com/users/4221865/pjc1992"
+              },
+              "is_answered": false,
+              "view_count": 8,
+              "answer_count": 0,
+              "score": -1,
+              "last_activity_date": 1415656795,
+              "creation_date": 1415656795,
+              "question_id": 26853777,
+              "link": "http://stackoverflow.com/questions/26853777/how-to-customise-a-slider-in-xcode6-for-ios-swift",
+              "title": "How to customise a slider in Xcode6 for iOS (Swift)"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 68,
+              "user_id": 4122521,
+              "user_type": "registered",
+              "accept_rate": 100,
+              "profile_image": "https://www.gravatar.com/avatar/ec9a62aa50e4b84a154165883ead9a6d?s=128&d=identicon&r=PG&f=1",
+              "display_name": "CarveDrone",
+              "link": "http://stackoverflow.com/users/4122521/carvedrone"
+              },
+              "is_answered": false,
+              "view_count": 7,
+              "answer_count": 1,
+              "score": 0,
+              "last_activity_date": 1415656410,
+              "creation_date": 1415652562,
+              "question_id": 26852728,
+              "link": "http://stackoverflow.com/questions/26852728/having-avaudioengine-repeat-a-sound",
+              "title": "Having AVAudioEngine repeat a sound"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 6,
+              "user_id": 4210648,
+              "user_type": "registered",
+              "accept_rate": 100,
+              "profile_image": "https://www.gravatar.com/avatar/917a3525b01f2f3737833e416ec1d1d7?s=128&d=identicon&r=PG&f=1",
+              "display_name": "KiZ",
+              "link": "http://stackoverflow.com/users/4210648/kiz"
+              },
+              "is_answered": true,
+              "view_count": 24,
+              "accepted_answer_id": 26853370,
+              "answer_count": 1,
+              "score": -1,
+              "last_activity_date": 1415655653,
+              "creation_date": 1415644312,
+              "last_edit_date": 1415655653,
+              "question_id": 26850501,
+              "link": "http://stackoverflow.com/questions/26850501/swift-bringsubviewtofront-not-working",
+              "title": "Swift bringSubViewToFront not working"
+              },
+              {
+              "tags": [
+                       "ios",
+                       "swift",
+                       "ios8"
+                       ],
+              "owner": {
+              "reputation": 151,
+              "user_id": 1926291,
+              "user_type": "registered",
+              "accept_rate": 37,
+              "profile_image": "https://www.gravatar.com/avatar/cb29b9df2a745868e83b7504c24f59b3?s=128&d=identicon&r=PG",
+              "display_name": "Srujan Simha",
+              "link": "http://stackoverflow.com/users/1926291/srujan-simha"
+              },
+              "is_answered": false,
+              "view_count": 18,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415655555,
+              "creation_date": 1415649772,
+              "last_edit_date": 1415655555,
+              "question_id": 26852039,
+              "link": "http://stackoverflow.com/questions/26852039/swift-in-app-email-freezes-for-few-seconds-and-throws-exception",
+              "title": "Swift: In-app email freezes for few seconds and throws exception"
+              },
+              {
+              "tags": [
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 11,
+              "user_id": 4175405,
+              "user_type": "registered",
+              "profile_image": "https://lh6.googleusercontent.com/-K05WQIkdzkA/AAAAAAAAAAI/AAAAAAAAHus/NZ9Fj9T24M4/photo.jpg?sz=128",
+              "display_name": "FRIBSTER64",
+              "link": "http://stackoverflow.com/users/4175405/fribster64"
+              },
+              "is_answered": false,
+              "view_count": 23,
+              "answer_count": 0,
+              "score": 0,
+              "last_activity_date": 1415655006,
+              "creation_date": 1415653997,
+              "last_edit_date": 1415655006,
+              "question_id": 26853077,
+              "link": "http://stackoverflow.com/questions/26853077/error-in-swiftblock-does-not-have-a-member-named-colorawvalue",
+              "title": "Error in swift&#39;Block&#39; does not have a member named &#39;colorawValue&#39;"
+              },
+              {
+              "tags": [
+                       "swift"
+                       ],
+              "owner": {
+              "reputation": 1314,
+              "user_id": 2304242,
+              "user_type": "registered",
+              "accept_rate": 74,
+              "profile_image": "https://www.gravatar.com/avatar/23d114490e7c04c9ba3818a97c88474b?s=128&d=identicon&r=PG",
+              "display_name": "Mikael",
+              "link": "http://stackoverflow.com/users/2304242/mikael"
+              },
+              "is_answered": true,
+              "view_count": 8,
+              "accepted_answer_id": 26852718,
+              "answer_count": 1,
+              "score": 0,
+              "last_activity_date": 1415654869,
+              "creation_date": 1415652271,
+              "last_edit_date": 1415654869,
+              "question_id": 26852656,
+              "link": "http://stackoverflow.com/questions/26852656/loop-through-anyobject-results-in-does-not-have-a-member-named-generator",
+              "title": "Loop through [AnyObject]? results in does not have a member named generator"
+              }
+              ],
+    "has_more": true,
+    "quota_max": 10000,
+    "quota_remaining": 9641
+}
