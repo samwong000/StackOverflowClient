@@ -10,9 +10,9 @@
 #import "Question.h"
 
 @interface NetworkController : NSObject
-
+@property (nonatomic, strong) NSString *authToken;
 + (id)sharedInstance;
-+ (void)setAuthToken:(NSString *)authToken;
+//+ (void)setAuthToken:(NSString *)authToken;
 
 - (void)fetchQuestionsWithSearchTerm:(NSString *)searchText completionHandler: (void(^)(NSError *error, NSMutableArray *response))completionHandler;
 

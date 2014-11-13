@@ -25,8 +25,9 @@
     if (!AuthToken) {
         self.window.rootViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
     } else {
-        [NetworkController setAuthToken:AuthToken];
+        [[NetworkController sharedInstance] setAuthToken:AuthToken];
     }
+
 
     
 //    dispatch_after(1, dispatch_get_main_queue(), ^{
@@ -35,11 +36,6 @@
 //        self.window.rootViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
 //    });
     
-    return YES;
-}
-
-- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
-    NSLog(@"%@", url);
     return YES;
 }
 

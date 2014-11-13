@@ -13,7 +13,7 @@
 
 @property (nonatomic, strong) NSURLSession *session;
 @property (nonatomic, strong) NSURLSessionConfiguration *configuration;
-@property (nonatomic, strong) NSString *authToken;
+//@property (nonatomic, strong) NSString *authToken;
 
 @end
 
@@ -31,21 +31,17 @@
 - (id)init {
     _configuration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
     _session = [NSURLSession sessionWithConfiguration:_configuration];
-    
-    if (_authToken == nil) {
-        _authToken = [[NSUserDefaults standardUserDefaults] valueForKey: koAuthToken];
-    }
-    
+  
     return self;
 }
 
 - (void)dealloc {
 }
 
-
-+ (void)setAuthToken:(NSString *)authToken {
-    [[self sharedInstance] setAuthToken:authToken];
-}
+//
+//+ (void)setAuthToken:(NSString *)authToken {
+//    [[self sharedInstance] setAuthToken:authToken];
+//}
 
 - (void)fetchQuestionsWithSearchTerm:(NSString *)searchText completionHandler: (void(^)(NSError *error, NSMutableArray *response))completionHandler {
     
