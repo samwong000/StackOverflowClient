@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "NetworkController.h"
+#import "LoginViewController.h"
+#import "Constant.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSString *AuthToken = [[NSUserDefaults standardUserDefaults] objectForKey:koAuthToken];
+    if (!AuthToken) {
+        self.window.rootViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
+    } else {
+        [NetworkController setAuthToken:AuthToken];
+    }
+
+    
+//    dispatch_after(1, dispatch_get_main_queue(), ^{
+//                    [((UIWindow *)[[UIApplication sharedApplication].windows firstObject]).rootViewController presentViewController:[LoginViewController new] animated:YES completion:nil];
+//        
+//        self.window.rootViewController = [[LoginViewController alloc] initWithNibName:@"LoginViewController" bundle:[NSBundle mainBundle]];
+//    });
+    
+    return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    NSLog(@"%@", url);
     return YES;
 }
 

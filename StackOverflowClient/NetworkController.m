@@ -7,10 +7,14 @@
 //
 
 #import "NetworkController.h"
+#import "Constant.h"
 
 @interface NetworkController()
-@property (nonatomic,strong) NSURLSession *session;
-@property (nonatomic,strong) NSURLSessionConfiguration *configuration;
+
+@property (nonatomic, strong) NSURLSession *session;
+@property (nonatomic, strong) NSURLSessionConfiguration *configuration;
+@property (nonatomic, strong) NSString *authToken;
+
 @end
 
 @implementation NetworkController
@@ -25,12 +29,22 @@
 }
 
 - (id)init {
+    _configuration = [NSURLSessionConfiguration ephemeralSessionConfiguration];
+    _session = [NSURLSession sessionWithConfiguration:_configuration];
+    
+    if (_authToken == nil) {
+        _authToken = [[NSUserDefaults standardUserDefaults] valueForKey: koAuthToken];
+    }
     
     return self;
 }
 
 - (void)dealloc {
-    
+}
+
+
++ (void)setAuthToken:(NSString *)authToken {
+    [[self sharedInstance] setAuthToken:authToken];
 }
 
 - (void)fetchQuestionsWithSearchTerm:(NSString *)searchText completionHandler: (void(^)(NSError *error, NSMutableArray *response))completionHandler {
@@ -64,5 +78,46 @@
     [dataTask resume];
     
 }
+
+- (void)fetchQuestionsWithSearchTerm2:(NSString *)searchText completionHandler: (void(^)(NSError *error, NSMutableArray *response))completionHandler {
+    
+    [self setConfiguration: [NSURLSessionConfiguration defaultSessionConfiguration]];
+    [self setSession: [NSURLSession sessionWithConfiguration: _configuration]];
+    
+    NSString *urlString = [NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&tagged=%@&site=stackoverflow", searchText];
+    NSURL *url = [[NSURL alloc] initWithString:urlString];
+    
+    NSURLSessionDataTask *dataTask = [_session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        if (error) {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                NSLog(@"%@", error.localizedDescription);
+                completionHandler(nil, error);
+            });
+        } else {
+            NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
+            NSInteger statusCode = [httpResponse statusCode];
+            
+            if (statusCode >= 200 && statusCode <= 299) {
+                
+                NSMutableArray *questions = [Question parseJSONDataIntoQuestions:data];
+//                NSError *error = NSError errorWithDomain:<#(NSString *)#> code:<#(NSInteger)#> userInfo:<#(NSDictionary *)#>;
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    completionHandler(nil, questions);
+                });
+                
+//                NSLog(@"Number of questions found: %lu", (unsigned long)questions.count);
+//                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+//                    completionHandler(nil, questions);
+//                }];
+            } else {
+                NSLog(@"Bad Response - StatusCode %li", (long)statusCode);
+            }
+        }
+    }];
+    [dataTask resume];
+    
+}
+
 
 @end

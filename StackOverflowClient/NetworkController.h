@@ -12,6 +12,7 @@
 @interface NetworkController : NSObject
 
 + (id)sharedInstance;
++ (void)setAuthToken:(NSString *)authToken;
 
 - (void)fetchQuestionsWithSearchTerm:(NSString *)searchText completionHandler: (void(^)(NSError *error, NSMutableArray *response))completionHandler;
 
