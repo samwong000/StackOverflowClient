@@ -48,7 +48,14 @@
     [self setConfiguration: [NSURLSessionConfiguration defaultSessionConfiguration]];
     [self setSession: [NSURLSession sessionWithConfiguration: _configuration]];
     
-    NSString *urlString = [NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&tagged=%@&site=stackoverflow", searchText];
+    NSString *urlString = nil;
+    if (_authToken != nil) {
+        //https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&tagged=cgrect&site=stackoverflow&access_token=BTRjRlsSb*GPERzvGPej0w))&key=n)5yDcr5enm7pgAvCAAcHQ((
+        urlString = [NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&tagged=%@&site=stackoverflow&access_token=%@&key=%@", searchText, _authToken, kPublicKey];
+    } else {
+        urlString = [NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&tagged=%@&site=stackoverflow", searchText];
+    }
+    
     NSURL *url = [[NSURL alloc] initWithString:urlString];
     
     NSURLSessionDataTask *dataTask = [_session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
@@ -75,45 +82,48 @@
     
 }
 
-- (void)fetchQuestionsWithSearchTerm2:(NSString *)searchText completionHandler: (void(^)(NSError *error, NSMutableArray *response))completionHandler {
-    
-    [self setConfiguration: [NSURLSessionConfiguration defaultSessionConfiguration]];
-    [self setSession: [NSURLSession sessionWithConfiguration: _configuration]];
-    
-    NSString *urlString = [NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&tagged=%@&site=stackoverflow", searchText];
-    NSURL *url = [[NSURL alloc] initWithString:urlString];
-    
-    NSURLSessionDataTask *dataTask = [_session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
-        if (error) {
-            dispatch_async(dispatch_get_main_queue(), ^{
-                NSLog(@"%@", error.localizedDescription);
-                completionHandler(nil, error);
-            });
-        } else {
-            NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
-            NSInteger statusCode = [httpResponse statusCode];
-            
-            if (statusCode >= 200 && statusCode <= 299) {
-                
-                NSMutableArray *questions = [Question parseJSONDataIntoQuestions:data];
-//                NSError *error = NSError errorWithDomain:<#(NSString *)#> code:<#(NSInteger)#> userInfo:<#(NSDictionary *)#>;
-                
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    completionHandler(nil, questions);
-                });
-                
-//                NSLog(@"Number of questions found: %lu", (unsigned long)questions.count);
-//                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+
+
+
+//- (void)fetchQuestionsWithSearchTerm2:(NSString *)searchText completionHandler: (void(^)(NSError *error, NSMutableArray *response))completionHandler {
+//    
+//    [self setConfiguration: [NSURLSessionConfiguration defaultSessionConfiguration]];
+//    [self setSession: [NSURLSession sessionWithConfiguration: _configuration]];
+//    
+//    NSString *urlString = [NSString stringWithFormat:@"https://api.stackexchange.com/2.2/search/advanced?order=desc&sort=activity&tagged=%@&site=stackoverflow", searchText];
+//    NSURL *url = [[NSURL alloc] initWithString:urlString];
+//    
+//    NSURLSessionDataTask *dataTask = [_session dataTaskWithURL:url completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+//        if (error) {
+//            dispatch_async(dispatch_get_main_queue(), ^{
+//                NSLog(@"%@", error.localizedDescription);
+//                completionHandler(nil, error);
+//            });
+//        } else {
+//            NSHTTPURLResponse *httpResponse = (NSHTTPURLResponse *) response;
+//            NSInteger statusCode = [httpResponse statusCode];
+//            
+//            if (statusCode >= 200 && statusCode <= 299) {
+//                
+//                NSMutableArray *questions = [Question parseJSONDataIntoQuestions:data];
+////                NSError *error = NSError errorWithDomain:<#(NSString *)#> code:<#(NSInteger)#> userInfo:<#(NSDictionary *)#>;
+//                
+//                dispatch_async(dispatch_get_main_queue(), ^{
 //                    completionHandler(nil, questions);
-//                }];
-            } else {
-                NSLog(@"Bad Response - StatusCode %li", (long)statusCode);
-            }
-        }
-    }];
-    [dataTask resume];
-    
-}
+//                });
+//                
+////                NSLog(@"Number of questions found: %lu", (unsigned long)questions.count);
+////                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+////                    completionHandler(nil, questions);
+////                }];
+//            } else {
+//                NSLog(@"Bad Response - StatusCode %li", (long)statusCode);
+//            }
+//        }
+//    }];
+//    [dataTask resume];
+//    
+//}
 
 
 @end

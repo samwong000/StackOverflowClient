@@ -7,6 +7,7 @@
 //
 
 #import "QuestionSearchViewController.h"
+#import "NSString-HTML-master/NSString+HTML.h"
 
 @interface QuestionSearchViewController ()
 
@@ -42,7 +43,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"QuestionCell" forIndexPath:indexPath];
     Question *newQuestion = _questions[indexPath.row];
-    cell.textLabel.text = newQuestion.title;
+    cell.textLabel.text = [newQuestion.title kv_decodeHTMLCharacterEntities];
     return cell;
 }
 
