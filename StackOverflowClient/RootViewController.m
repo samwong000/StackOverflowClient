@@ -24,7 +24,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.title = @"Stack Overflow Menu";
+    self.title = @"Menu";
     
     self.navigationController.delegate = self;
 }
