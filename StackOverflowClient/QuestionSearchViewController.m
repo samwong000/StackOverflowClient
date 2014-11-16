@@ -25,6 +25,8 @@
     
     [[self tableView] registerNib:[UINib nibWithNibName:@"QuestionCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"QuestionCell"];
     
+    self.title = NSLocalizedString(@"Questions", @"Questions");
+    
     _sharedInstance = [NetworkController sharedInstance];
     _searchBar.delegate = self;
     _tableView.delegate = self;

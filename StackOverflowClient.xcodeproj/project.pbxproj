@@ -34,6 +34,7 @@
 		52D4A2A91A15746500C70473 /* Question.JSON in Resources */ = {isa = PBXBuildFile; fileRef = 52D4A2A51A15746500C70473 /* Question.JSON */; };
 		52D4A2AA1A15746500C70473 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A2A61A15746500C70473 /* Question.m */; };
 		52D4A2AB1A15746500C70473 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D4A2A81A15746500C70473 /* User.m */; };
+		52E35C531A188E9700C5C695 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52E35C551A188E9700C5C695 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,10 @@
 		52D4A2A61A15746500C70473 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
 		52D4A2A71A15746500C70473 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		52D4A2A81A15746500C70473 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		52E35C511A188E6100C5C695 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		52E35C521A188E6100C5C695 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		52E35C541A188E9700C5C695 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		52E35C561A188E9C00C5C695 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,7 @@
 		52BC76BB1A1169FD001AF99F = {
 			isa = PBXGroup;
 			children = (
+				52E35C551A188E9700C5C695 /* Localizable.strings */,
 				52BC76C61A1169FD001AF99F /* StackOverflowClient */,
 				52BC76E31A1169FD001AF99F /* StackOverflowClientTests */,
 				52BC76C51A1169FD001AF99F /* Products */,
@@ -320,6 +326,7 @@
 				52BC76D61A1169FD001AF99F /* Main.storyboard in Resources */,
 				52B8593C1A12C1F50004C60C /* QuestionCell.xib in Resources */,
 				52D4A2A91A15746500C70473 /* Question.JSON in Resources */,
+				52E35C531A188E9700C5C695 /* Localizable.strings in Resources */,
 				52BC76DB1A1169FD001AF99F /* LaunchScreen.xib in Resources */,
 				528E66541A14222C00117A3F /* LoginViewController.xib in Resources */,
 				52BC76D81A1169FD001AF99F /* Images.xcassets in Resources */,
@@ -386,6 +393,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				52BC76D51A1169FD001AF99F /* Base */,
+				52E35C511A188E6100C5C695 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -394,8 +402,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				52BC76DA1A1169FD001AF99F /* Base */,
+				52E35C521A188E6100C5C695 /* es */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		52E35C551A188E9700C5C695 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52E35C541A188E9700C5C695 /* es */,
+				52E35C561A188E9C00C5C695 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

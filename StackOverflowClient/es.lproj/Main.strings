@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "Question"; ObjectID = "Hz6-27-Do9"; */
+"Hz6-27-Do9.text" = "Question";
+
+/* Class = "IBUILabel"; text = "Questions"; ObjectID = "RLu-ew-3d2"; */
+"RLu-ew-3d2.text" = "Questions";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "XOA-MI-eHy"; */
+"XOA-MI-eHy.normalTitle" = "Cancel";
+
+/* Class = "IBUILabel"; text = "Users"; ObjectID = "cbf-Nl-bno"; */
+"cbf-Nl-bno.text" = "Users";
+
+/* Class = "IBUINavigationItem"; title = "Root View Controller"; ObjectID = "ocX-D7-9vA"; */
+"ocX-D7-9vA.title" = "Root View Controller";
